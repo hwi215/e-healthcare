@@ -55,7 +55,8 @@ public class ChatController {
         if(roomName != null && !roomName.trim().equals("")) {
             Room room = new Room();
             room.setRoomNumber(++roomNumber);
-            room.setRoomName(roomName);
+            room.setRoomName(roomName); // romename을 환자 이름으로 받을까?
+
             roomList.add(room);
         }
         return roomList;

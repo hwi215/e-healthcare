@@ -19,8 +19,8 @@
         .container h1{
             text-align: left;
             padding: 5px 5px 5px 15px;
-            color: #FFBB00;
-            border-left: 3px solid #FFBB00;
+            color: #479c24;
+            border-left: 3px solid #479c24;
             margin-bottom: 20px;
         }
         .chating{
@@ -34,7 +34,7 @@
             text-align: right;
         }
         .chating .others{
-            color: #FFE400;
+            color: #479c24;
             text-align: left;
         }
         input{

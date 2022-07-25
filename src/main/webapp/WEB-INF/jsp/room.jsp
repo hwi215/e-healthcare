@@ -19,8 +19,8 @@
         .container h1{
             text-align: left;
             padding: 5px 5px 5px 15px;
-            color: #FFBB00;
-            border-left: 3px solid #FFBB00;
+            color: #479c24;
+            border-left: 3px solid #479c24;
             margin-bottom: 20px;
         }
         .roomContainer{
@@ -33,15 +33,15 @@
             border: none;
         }
         .roomList th{
-            border: 1px solid #FFBB00;
+            border: 1px solid #479c24;
             background-color: #fff;
-            color: #FFBB00;
+            color: #479c24;
         }
         .roomList td{
-            border: 1px solid #FFBB00;
+            border: 1px solid #479c24;
             background-color: #fff;
             text-align: left;
-            color: #FFBB00;
+            color: #479c24;
         }
         .roomList .num{
             width: 75px;
@@ -55,7 +55,7 @@
             text-align: center;
         }
         button{
-            background-color: #FFBB00;
+            background-color: #479c24;
             font-size: 14px;
             color: #000;
             border: 1px solid #000;
@@ -136,7 +136,7 @@
 </script>
 <body>
 <div class="container">
-    <h1>채팅방</h1>
+    <h1>상담(채팅)</h1>
     <div id="roomContainer" class="roomContainer">
         <table id="roomList" class="roomList"></table>
     </div>

@@ -217,7 +217,7 @@
     <div class="row col2 clearFix">
         <!-- item -->
         <div class="item">
-            <h3 class="title">진료예약확인</h3>
+            <h3 class="title">상담예약확인</h3>
 
             <p class="noData">조회 가능한 진료예약이 없습니다.</p>
             <a href="/mypage/reserve/rsvConfirm.do" role="button" class="more a">진료예약확인 상세보기</a>
@@ -229,7 +229,7 @@
         <!-- //item -->
         <!-- item -->
         <div class="item">
-            <h3 class="title">최근 진료이력조회</h3>
+            <h3 class="title">상담내역</h3>
 
             <p class="noData">최근 1년간 수진이력이 존재하지 않습니다.</p>
             <a href="/mypage/reserve/medHistory.do" role="button" class="more">최근 진료이력조회 상세보기</a>

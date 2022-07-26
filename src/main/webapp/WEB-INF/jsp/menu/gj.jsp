@@ -175,7 +175,7 @@
                 </a>
                 <a id = "doctorConsult">
                     <img src="/images/진료.png">
-                    <span>상담신청</span>
+                    <span></span><a href="/menu/reservation">상담신청s</span>
                 </a>
                 <div class = "doctorDetailInfo">
                     <div id = "doctorSpeak">
@@ -618,6 +618,7 @@
                 x.addClass("doctorContentEX");
             }
         });
+        /*
         $doctorContent.children().click(function(e){
             var id = this.id;
             if (id ==  "doctorConsult_s"){
@@ -660,6 +661,8 @@
                 };
             }
         });
+
+         */
         $consultWaiting.children("#waitingCancle").click(function(e){
             if(cnt !=0){
                 var x = document.getElementById($docNum);

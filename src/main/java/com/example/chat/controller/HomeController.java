@@ -106,4 +106,9 @@ public class HomeController {
     public String menu2Form() {
         return "menu";
     }
+
+    @GetMapping("/menu/reservation")
+    public String reservation() {
+        return "menu/reservation";
+    }
 }

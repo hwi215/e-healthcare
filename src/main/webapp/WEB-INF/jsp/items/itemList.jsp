@@ -1,15 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
-<!DOCTYPE HTML>
-<!--
-Escape Velocity by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-Edited by Ga-eun Kim
-
-상담요청 목록 페이지
--->
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html>
 <head>
     <title>E-HealthCare 상담요청 목록</title>
@@ -19,7 +10,7 @@ Edited by Ga-eun Kim
 </head>
 <body class="req_consultation is-preload">
 <div id="page-wrapper">
-    <!-- Header -->
+
     <section id="header" class="wrapper">
 
         <!-- Logo -->
@@ -29,7 +20,6 @@ Edited by Ga-eun Kim
             <h1><a href="index.html">E-HealthCare</a></h1>
             <p>An online consultation and medical subscription</p>
         </div>
-
         <!-- Nav -->
         <nav id="nav">
             <ul>
@@ -40,78 +30,38 @@ Edited by Ga-eun Kim
         </nav>
     </section>
 
-    <!-- Main -->
+
     <section id="highlights" class="wrapper style2">
         <div class="title">상담요청 목록</div>
         <div class="container">
+        <form role="form" method="post" action="/items/new">
             <table>
-                <thead>
-                <tr>
-                    <th>이름</th>
-                    <th>수락 상태</th>
-                    <th>진료 과목</th>
-                    <th>상담요청일</th>
-                </tr>
-                </thead>
-                <tbody>
-                <!------------------------------------------------------------------------------>
-                <!-- 아래의 환자 정보를 DB에서 불러오면 array 같은데에 저장해서 반복하면 됌 -->
-                <tr><!-- 첫번째 줄 -->
-                    <td>홍길동</td>
-                    <td>
-                        <label class="switch">
+                <tr><th>이름</th><th>수락상태</th><th>진료과목</th><th>상담요청일</th></tr>
+
+                <c:forEach items="${item}" var = "item">
+                    <tr>
+                        <td><c:out value="${item.name}" /></td>
+                        <td>
+                            <label class="switch">
                             <input type="checkbox">
                             <span class="slider round"></span>
-                        </label>
-                    </td>
-                    <td>가정의학과</td>
-                    <td>2022/07/24</td>
-                </tr>
-                <tr><!-- 두번째 줄 -->
-                    <td>김이박</td>
-                    <td>
-                        <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </label>
-                    </td>
-                    <td>가정의학과</td>
-                    <td>2022/07/24</td>
-                </tr>
-                <tr><!-- 세번째 줄 -->
-                    <td>강하다</td>
-                    <td>
-                        <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </label>
-                    </td>
-                    <td>가정의학과</td>
-                    <td>2022/07/24</td>
-                </tr>
-                <tr><!-- 네번째 줄 -->
-                    <td>한겨울</td>
-                    <td>
-                        <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </label>
-                    </td>
-                    <td>가정의학과</td>
-                    <td>2022/07/24</td>
-                </tr>
-                <!------------------------------------------------------------------------------>
-                </tbody>
+                            </label>
+                        </td>
+                        <td><c:out value="${item.price}" /></td>
+                        <td><c:out value="${item.quantity}" /></td>
+                    </tr>
+                </c:forEach>
             </table>
+        </form>
         </div>
     </section>
 
     <%@ include file="../layout/footer2.jsp"%>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>

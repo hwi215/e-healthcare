@@ -37,6 +37,7 @@ public class ItemController {
      */
     @GetMapping(value = "/items")
     public String list(Model model) {
+        System.out.println("시작");
         List<Item> items = itemService.findItems();
         model.addAttribute("item", items);
         return "items/itemList";

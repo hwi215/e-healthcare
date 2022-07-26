@@ -34,7 +34,7 @@ public class Member {
 
     private String role;
 
-    //private LocalDateTime createDate;
+    private LocalDateTime createDate;
 
 
 }

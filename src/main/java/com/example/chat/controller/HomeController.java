@@ -111,4 +111,10 @@ public class HomeController {
     public String reservation() {
         return "menu/reservation";
     }
+
+
+    @GetMapping("/menu/modal")
+    public String modal() {
+        return "menu/modal";
+    }
 }

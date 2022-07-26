@@ -8,4 +8,6 @@ public class ItemForm {
     private String name;
     private String price;
     private String quantity;
+
+    private String note; // 증상기록
 }

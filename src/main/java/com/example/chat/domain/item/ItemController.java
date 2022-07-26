@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 
@@ -23,13 +24,14 @@ public class ItemController {
     }
     @PostMapping(value = "/items/new")
     public String create(ItemForm form) {
-        Item book = new Item();
-        book.setName(form.getName());
+        Item item = new Item();
+        item.setName(form.getName());
 
-        book.setPrice(form.getPrice());
-        book.setQuantity(form.getQuantity());
-        itemService.saveItem(book);
-        return "redirect:/items";
+        item.setPrice(form.getPrice());
+        item.setQuantity(form.getQuantity());
+        item.setNote(form.getNote());
+        itemService.saveItem(item);
+        return "menu/gj";
     }
 
     /**

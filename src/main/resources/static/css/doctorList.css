@@ -350,6 +350,8 @@ body {
   left: 50px;
 }
 
+
+
 .doctorContent > #doctorConsult_s {
   position: absolute;
   right: 140px;
@@ -372,6 +374,7 @@ body {
   width: 70px;
   left: 50px;
 }
+
 
 .doctorDetailInfo {
   display: none;

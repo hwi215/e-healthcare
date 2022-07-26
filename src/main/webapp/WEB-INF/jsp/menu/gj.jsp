@@ -1,4 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -24,6 +29,10 @@
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/js/snuh-components-v1.0.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 
     <script
             src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -40,9 +49,11 @@
 
 </head>
 
-
 <body>
 <div class ="container">
+
+
+
 
     <div id="wrap2">
         <a href="#content" class="skipToContent">본문으로 바로가기</a>
@@ -126,6 +137,7 @@
 
     </div>
 
+
     <div class = "doctorContainer">
         <div class = "subjectField">
             <span class = "subjectTitle"> 가정의학과 </span>
@@ -144,7 +156,9 @@
             <div id = "waitingCancle">대기취소</div>
         </div>
 
+
         <div class = "doctorList">
+
             <div class = "doctorContent" id="doc1">
                 <div class = "doctorImg">
                     <img src="/images/ex1.jpg">
@@ -155,6 +169,7 @@
                 </div>
                 <div id = "doctorSubject">
                     <span>[가정의학과]</span>
+
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
@@ -169,14 +184,18 @@
                 </div>
                 <div id = "doctorOnline">
                 </div>
+
                 <a id = "doctorDetail">
                     <img src="/images/돋보기.png">
                     <span>상세소개</span>
                 </a>
                 <a id = "doctorConsult">
                     <img src="/images/진료.png">
-                    <span></span><a href="/menu/reservation">상담신청s</span>
-                </a>
+                    <span>
+                        <button type="button" onclick=location.href="/items/new">상담신청</button>
+                    </span>
+               </a>
+
                 <div class = "doctorDetailInfo">
                     <div id = "doctorSpeak">
                         <span>한마디:&nbsp;</span>
@@ -287,6 +306,7 @@
                     <img src="/images/진료.png">
                     <span>상담신청</span>
                 </a>
+
                 <div class = "doctorDetailInfo">
                     <div id = "doctorSpeak">
                         <span>한마디:&nbsp;</span>
@@ -590,19 +610,22 @@
         var $doctorContent = $(".doctorContent");
         var $doctorContentEX = $(".doctorContentEX");
         var $doctorDetail = $("#doctorDetail");
+        var $reservation = $(".reservation");
         var $doctorDetailInfo = $(".doctorDetailInfo");
         var $consultWaiting = $('.consultWaiting');
         var cnt = 0 ;
         var $docNum = 0;
-        var $userId = $("#userId");
+        var $userId = $(".userId");
+
         if(localStorage.getItem('id')){
             var id =  localStorage.getItem('id');
             $userId.text(id);
         }
-        $doctorContent.children().mouseenter(function(e){
+        $doctorContent.children().mouseenter(function(e) {
             var id = this.id;
-            if (id == "doctorDetail" || id == "doctorConsult"){
-                this.id += "_s";}
+            if (id == "doctorDetail" || id == "doctorConsult") {
+                this.id += "_s";
+            }
         });
 
         $doctorContent.children().mouseleave(function(e){
@@ -618,6 +641,7 @@
                 x.addClass("doctorContentEX");
             }
         });
+
         /*
         $doctorContent.children().click(function(e){
             var id = this.id;
@@ -626,6 +650,7 @@
                     alert('이미 대기중인 상담신청이 있습니다.');
                 }
                 if(cnt == 0){
+
                     alert('상담신청 되었습니다.');
                     var room = {
                         doctorName : "doctorname"
@@ -662,7 +687,11 @@
             }
         });
 
+
          */
+
+
+
         $consultWaiting.children("#waitingCancle").click(function(e){
             if(cnt !=0){
                 var x = document.getElementById($docNum);
@@ -684,6 +713,9 @@
                 x.addClass("doctorContent");
             }
         });
+
+
+
     </script>
 
 

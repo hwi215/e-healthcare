@@ -94,7 +94,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   position: absolute;
-  top: 1000px;
+  top: 500px;
 }
 
 .menu > a {

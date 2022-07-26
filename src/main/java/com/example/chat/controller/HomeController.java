@@ -90,6 +90,11 @@ public class HomeController {
     public String mypageDoctor2() {
         return "menu/mypageDoctor2";
     }
+    @GetMapping("/menu/mypageD")
+    public String mypageD() {
+        return "menu/mypageD";
+    }
+
 
     @GetMapping("/main")
     public String menuForm() {

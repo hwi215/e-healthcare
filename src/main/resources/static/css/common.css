@@ -740,7 +740,14 @@ p
 
 #content
 {
-    min-height:800px;
+    min-height:1600px;
+    margin-top:180px;
+    padding-top:80px
+}
+
+#content2
+{
+    min-height:1600px;
     margin-top:180px;
     padding-top:80px
 }
@@ -789,7 +796,19 @@ p
     left:0;
     z-index:105;
     width:100%;
-    height:529px;
+    height:29px;
+    border-bottom:1px solid #fff;
+    background-color:#fff
+}
+
+#header3
+{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:105;
+    width:100%;
+    height:29px;
     border-bottom:1px solid #fff;
     background-color:#fff
 }
@@ -1782,9 +1801,11 @@ p
 .contHeadingWrap>:first-child
 {
     float:left;
-    font-size:40px;
+    font-size:30px;
     letter-spacing:-2px
 }
+
+
 
 .contHeadingWrap+.boardInfo,.contHeadingWrap+.boardView
 {

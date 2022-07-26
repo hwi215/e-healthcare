@@ -1,35 +1,34 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
-<!DOCTYPE HTML>
-<!--
-Escape Velocity by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-Edited by Ga-eun Kim
 
-상담요청 목록 페이지
--->
-<html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-    <title>E-HealthCare 상담요청 목록</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
-    <link rel="stylesheet" href="/css/main.css" />
+    <meta charset="UTF-8">
+    <title>E-healthcare</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="/images/logo6.png" type="image/x-icon"/>
 
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/content.css">
+    <link rel="stylesheet" href="/css/main.css" />
 </head>
-<body class="req_consultation is-preload">
-<div id="page-wrapper">
+<body>
+<!-- wrap -->
+<div id="wrap">
     <!-- Header -->
     <section id="header2" class="wrapper">
 
         <!-- Logo -->
         <div id="logo">
-            <img src = "images/logo.png" style="float: center; display: inline; margin: 1em; width:4em; height:4em;">
+            <img src = "/images/logo6.png" style="float: center; display: inline; margin: 1em; width:4em; height:4em;">
 
             <h1><a href="index.html">E-HealthCare</a></h1>
             <p>An online consultation and medical subscription</p>
@@ -44,49 +43,50 @@ Edited by Ga-eun Kim
             </ul>
         </nav>
     </section>
+    <!-- //header -->
 
-    <!-- Main -->
-    <section id="highlights" class="wrapper style2">
-        <div class="title">마이페이지</div>
-        <div class="container">
-            <table>
-                <thead>
+    <!-- contTopBar -->
 
-                </thead>
-                <tbody>
-                <!------------------------------------------------------------------------------>
-                <!-- 아래의 환자 정보를 DB에서 불러오면 array 같은데에 저장해서 반복하면 됌 -->
-                <div class="item personal">
 
-                </div>
-                <tr><!-- 첫번째 줄 -->
+    <!-- content -->
 
-                </tr>
-                <tr><!-- 두번째 줄 -->
 
-                </tr>
-                <tr><!-- 세번째 줄 -->
 
-                </tr>
-                <tr><!-- 네번째 줄 -->
-                    <div class="btnWrap">
-                        <button type="button" class="btnType01" onClick="location.href='/mypage/info/change/changeInfo.do'">회원정보 수정</button>
-                        <button type="button" class="btnType01" onClick="location.href='/mypage/info/change/changePassword.do'">비밀번호 변경</button>
-                        <a href="/mypage/info/withdrawal/step1.do" role="button" class="btnType01">회원탈퇴</a>
-                    </div>
-                </tr>
-                <!------------------------------------------------------------------------------>
-                </tbody>
-            </table>
+    <main id="content" class="myPage">
+        <div class="contHeadingWrap">
+            <h2>환자 관리 / 개인정보 수정 </h2>
+            <!-- rsvLayerWrap -->
+            <section class="layerWrap rsvLayer layerRservation" id="rsvSchedule"> </section>
+            <!-- rsvLayerWrap -->
         </div>
-    </section>
+        <!-- row -->
+        <div class="row col2 clearFix">
+            <div class="item personal">
+                <h3 class="title">회원정보수정</h3>
+                <p class="text">
+                    회원정보 수정을 원하시거나 비밀번호 변경을<br>
+                    원하실 경우 아래의 버튼을 클릭해 주세요.
+                </p>
+                <div class="btnWrap">
+                    <button type="button" class="btnType01" onClick="location.href='/mypage/info/change/changeInfo.do'">회원정보 수정</button>
+                    <button type="button" class="btnType01" onClick="location.href='/mypage/info/change/changePassword.do'">비밀번호 변경</button>
+                </div>
+            </div>
+            <!-- //item -->
+            <!-- item -->
+            <div class="item personal">
+                <h3 class="title">회원탈퇴</h3>
+                <p class="text">
+                    회원 서비스를 이용하지 않으실 경우<br>
+                    아래의 버튼을 클릭해 주세요.
+                </p>
+                <div class="btnWrap">
+                    <a href="/mypage/info/withdrawal/step1.do" role="button" class="btnType01">회원탈퇴</a>
+                </div>
+            </div>
+            <!-- //item -->
+        </div>
+        <!-- //row -->
 
-    <%@ include file="../layout/footer2.jsp"%>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+</body>
+</html>

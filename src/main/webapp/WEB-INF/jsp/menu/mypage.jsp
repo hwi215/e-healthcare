@@ -152,15 +152,7 @@
     <div class="contHeadingWrap">
         <h2>마이페이지</h2>
 
-        <!-- contUtilMenu -->
-        <ul class="contUtilMenu">
-            <li class="pagePrint"><a href="/" role="button">인쇄</a></li>
-            <li class="b"><a href="/" role="button" id="interestCont">관심콘텐츠</a></li>
-            <li class="copyURL b"><a href="/" role="button">URL복사</a></li>
-            <!--<li class="voiceBtnLbl b"><a href="/" class="a" role="button" onclick="javascript:voicemonjs_statval();return false;">음성</a></li>-->
-            <li class="zoomOut"><button type="button" class="hideTxt">화면 축소</button></li>
-            <li class="zoomIn"><button type="button" class="hideTxt">화면 확대</button></li>
-        </ul>
+
         <!-- //contUtilMenu -->
         <script type="text/javascript">
             $(function() {
@@ -230,8 +222,6 @@
         <div class="item">
             <h3 class="title">진료예약확인</h3>
 
-
-
             <p class="noData">조회 가능한 진료예약이 없습니다.</p>
             <a href="/mypage/reserve/rsvConfirm.do" role="button" class="more a">진료예약확인 상세보기</a>
 
@@ -243,8 +233,6 @@
         <!-- item -->
         <div class="item">
             <h3 class="title">최근 진료이력조회</h3>
-
-
 
             <p class="noData">최근 1년간 수진이력이 존재하지 않습니다.</p>
             <a href="/mypage/reserve/medHistory.do" role="button" class="more">최근 진료이력조회 상세보기</a>

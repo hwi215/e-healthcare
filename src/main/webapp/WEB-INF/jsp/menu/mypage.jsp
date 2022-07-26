@@ -18,19 +18,16 @@
             <span class="hideEl">&gt;</span>
 
             <div class="a">
-                <em>마이페이지</em>
                 <button type="button" class="bcLinkLayerBtn hideTxt">주 메뉴 목록 열기</button>
                 <!-- bcLinkLayer -->
                 <ul class="bcLinkLayer">
 
-                    <li><a href="/mypage/info/change/changeInfo.do">마이페이지</a></li>
 
                 </ul>
                 <!-- //bcLinkLayer -->
             </div>
             <span class="hideEl">&gt;</span>
             <div class="a">
-                <em>마이페이지</em>
                 <button type="button" class="bcLinkLayerBtn hideTxt">서브 메뉴 목록 열기</button>
                 <!-- bcLinkLayer -->
                 <ul class="bcLinkLayer">

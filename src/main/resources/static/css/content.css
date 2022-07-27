@@ -6,6 +6,7 @@
     letter-spacing:-.5px
 }
 
+
 .gnbBnrTxt01
 {
     background-position:0 0
@@ -2088,7 +2089,9 @@
 .introContent .introWrap
 {
     padding-right:400px;
-    background:url(/images/logo6.png) no-repeat right center
+    background:url(/images/logo6.png) no-repeat right center;
+    background-size: 35% 55%;
+
 }
 
 .introContent .lightTxtIntro

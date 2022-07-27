@@ -46,7 +46,7 @@
                 </form>
 
 
-                <a href="/auth/findId" role="button" class="txtBtn">아이디/비밀번호찾기</a><span class="b"><a href="signupStep1" role="button" class="txtBtn">회원가입</a></span>
+                <a href="/menu/findId" role="button" class="txtBtn">아이디/비밀번호찾기</a><span class="b"><a href="/auth/signupStep1" role="button" class="txtBtn">회원가입</a></span>
                 <a href="#" class="btnNaver btnBig" role="button"><b class="b">네이버 아이디로 로그인</b></a>
 
             </div>

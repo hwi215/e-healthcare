@@ -30,7 +30,7 @@
         <div id="logo">
             <img src = "/images/logo6.png" style="float: center; display: inline; margin: 1em; width:4em; height:4em;">
 
-            <h1><a href="index.html">E-HealthCare</a></h1>
+            <h1><a href="/menu/mainpage">E-HealthCare</a></h1>
             <p>An online consultation and medical subscription</p>
         </div>
 

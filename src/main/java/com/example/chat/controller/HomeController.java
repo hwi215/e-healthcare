@@ -16,9 +16,9 @@ public class HomeController {
     }
 
 
-    @GetMapping("/auth/findId")
+    @GetMapping("/menu/findId")
     public String findIdForm() {
-        return "auth/fndId";
+        return "menu/fndId";
     }
 
 
@@ -30,34 +30,34 @@ public class HomeController {
 
     @GetMapping("/auth/signupStep1")
     public String signupStep1Form() {
-        return "/auth/signupStep1";
+        return "auth/signupStep1";
     }
 
     @GetMapping("/auth/signupStep2")
     public String signupStep2Form() {
-        return "/auth/signupStep2";
+        return "auth/signupStep2";
     }
 
     @GetMapping("/auth/signupStep2Doctor")
     public String signupStep2DoctorForm() {
-        return "/auth/signupStep2Doctor";
+        return "auth/signupStep2Doctor";
     }
 
 
     @GetMapping("/auth/signupStep3")
     public String signupStep3Form() {
-        return "/auth/signupStep3";
+        return "auth/signupStep3";
     }
 
     @GetMapping("/auth/signupStep3Doctor")
     public String signupStep3DoctorForm() {
-        return "/auth/signupStep3Doctor";
+        return "auth/signupStep3Doctor";
     }
 
 
     @GetMapping("/auth/signupStep4")
     public String signupStep4Form() {
-        return "/auth/signupStep4";
+        return "auth/signupStep4";
     }
 
     @GetMapping("/auth/login2")

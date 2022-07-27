@@ -85,7 +85,7 @@
                             <a href="/menu/disease" onclick="return false;">내 질병 찾기</a>
                         </li>
                         <li>
-                            <a href="/auth/mypage" onclick="return false;">마이페이지</a>
+                            <a href="/menu/mypage" onclick="return false;">마이페이지</a>
                         </li>
 
                     </ul>

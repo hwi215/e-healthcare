@@ -34,7 +34,7 @@
 
 
 
-                    <li><a href="/mypage/main.do">마이페이지</a></li>
+                    <li><a href="/menu/mypage">마이페이지</a></li>
 
 
 
@@ -73,8 +73,7 @@
         <!-- //breadcrumb -->
         <!-- bcQuickMenu -->
         <ul class="bcQuickMenu">
-            <li class="a"><a href="/reservation/reservation.do">진료예약</a></li>
-            <li><a href="/reservation/confirm/rsvConfirm.do">예약조회</a></li>
+            <li><a href="/menu/mypage">예약조회</a></li>
         </ul>
         <!-- //bcQuickMenu -->
     </div>

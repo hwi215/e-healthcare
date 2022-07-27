@@ -83,7 +83,7 @@
                     <h2 class="hideEl">주 메뉴</h2>
                     <ul class="gnbList clearFix">
                         <li>
-                            <a href="/api/intro/healthcare" onclick="return false;">헬스케어 소개</a>
+                            <a href="/menu/mainpage" onclick="return false;">헬스케어 소개</a>
                         </li>
                         <li><a href="/menu/medicalField">분야선택</a></li>
                         <li>
@@ -115,7 +115,7 @@
             <div class="innerWrap clearFix">
                 <!-- bcQuickMenu -->
                 <ul class="bcQuickMenu">
-                    <li><a href="/reservation/confirm/rsvConfirm.do">예약조회</a></li>
+                    <li><a href="/menu/mypage">예약조회</a></li>
                 </ul>
                 <!-- //bcQuickMenu -->
             </div>

@@ -45,81 +45,59 @@
 <body>
 <!-- wrap -->
 <div id="wrap">
-    <a href="#content" class="skipToContent">본문으로 바로가기</a>
-    <!-- header -->
 
-    <script type="text/javascript">
 
-        function outcomesFnc(e) {
 
-            var now = new Date();
-            var dday = new Date("2021", "11", "17","11","59","59");
 
-            if(now != dday) {
-                alert("콘텐츠 준비중입니다.");
-                e.preventDefault();
-                return false;
-            }else {
-                window.open('https://dept.snuh.org/dept/OC/index.do');
-            }
+    <div id="wrap2">
+        <a href="#content" class="skipToContent">본문으로 바로가기</a>
+        <!-- header -->
 
-        }
-    </script>
-    <header id="header" class="b">
-        <!-- innerWrap -->
-        <div class="innerWrap">
-            <h1><a href="/main.do" class="hideTxt">서울대학교병원</a></h1>
-            <div class="topLeftWrap">
-                <a href="https://dept.snuh.org/dept/OC/index.do" class="hideTxt" id="outcomes" >Outcomes Book</a>
+        <header id="header" class="b">
+            <!-- innerWrap -->
+            <div class="innerWrap">
+
+
+                <!-- topMenuWrap -->
+                <div class="topMenuWrap">
+
+                    <!-- topMenu -->
+                    <ul class="topMenu">
+                        <li><a href="/auth/signin">로그인</a></li>
+                        <li><a href="/auth/signupStep1">회원가입</a></li>
+                    </ul>
+                    <!-- //topMenu -->
+                </div>
+                <!-- //topMenuWrap -->
+
+                <!-- gnb -->
+                <nav id="gnb">
+                    <h2 class="hideEl">주 메뉴</h2>
+                    <ul class="gnbList clearFix">
+                        <li>
+                            <a href="/menu/mainpage" onclick="return false;">헬스케어 소개</a>
+                        </li>
+                        <li><a href="/menu/medicalField">분야선택</a></li>
+                        <li>
+                            <a href="/menu/doctor">의사검색</a>
+                        </li>
+                        <li>
+                            <a href="/menu/disease" onclick="return false;">내 질병 찾기</a>
+                        </li>
+                        <li>
+                            <a href="/auth/mypage" onclick="return false;">마이페이지</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- //gnb -->
+
+
             </div>
+            <!-- //innerWrap -->
+        </header>
 
-            <!-- topMenuWrap -->
-            <div class="topMenuWrap">
-
-                <!-- topMenu -->
-                <ul class="topMenu">
-                    <li><a href="/auth/signin">로그인</a></li>
-                    <li><a href="/auth/signupStep1">회원가입</a></li>
-                </ul>
-                <!-- //topMenu -->
-            </div>
-            <!-- //topMenuWrap -->
-
-            <!-- gnb -->
-            <nav id="gnb">
-                <button class="totMenuBtn hideTxt" type="button">전체 메뉴 열기</button>
-                <h2 class="hideEl">주 메뉴</h2>
-                <ul class="gnbList clearFix">
-                    <li>
-                        <a href="/" onclick="return false;">헬스케어 소개</a>
-
-                    </li>
-                    <li>
-                        <a href="/" onclick="return false;">분야선택</a>
-
-                    </li>
-                    <li>
-                        <a href="/" onclick="return false;">의사검색</a>
-
-                    </li>
-                    <li>
-                        <a href="/" onclick="return false;">내 질병 찾기</a>
-
-                    </li>
-                    <li>
-                        <a href="/" onclick="return false;">마이페이지</a>
-
-                    </li>
-
-                </ul>
-
-            </nav>
-            <!-- //gnb -->
-
-
-        </div>
-        <!-- //innerWrap -->
-    </header>
     <!-- //header -->
 
     <!-- contTopBar -->
@@ -130,8 +108,7 @@
         <div class="innerWrap clearFix">
             <!-- bcQuickMenu -->
             <ul class="bcQuickMenu">
-                <li class="a"><a href="/reservation/reservation.do">진료예약</a></li>
-                <li><a href="/reservation/confirm/rsvConfirm.do">예약조회</a></li>
+                <li><a href="/menu/mypage">예약조회</a></li>
             </ul>
             <!-- //bcQuickMenu -->
         </div>

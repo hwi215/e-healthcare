@@ -78,10 +78,8 @@
 
                 <!-- topMenu -->
                 <ul class="topMenu">
-
-                    <li><a href="file:///Users/gimhwigyeong/Desktop/study/Project/ehealthcare/src/main/resources/static/member/login3.html">로그인</a></li>
-                    <li><a href="file:///Users/gimhwigyeong/Desktop/study/Project/ehealthcare/src/main/resources/static/member/signupStep1.html" onclick="gtag('event','PC 메인화면 상단 회원가입 버튼', { 'event_category' : '회원가입', 'event_label' : '회원가입_PC 메인화면 상단 회원가입 버튼', 'value': 1000});">회원가입</a></li>
-
+                    <li><a href="/auth/signin">로그인</a></li>
+                    <li><a href="/auth/signupStep1">회원가입</a></li>
                 </ul>
                 <!-- //topMenu -->
             </div>

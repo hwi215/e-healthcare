@@ -78,7 +78,6 @@
         <div class="innerWrap clearFix">
             <!-- bcQuickMenu -->
             <ul class="bcQuickMenu">
-                <li class="a"><a href="/api/reservation">진료예약</a></li>
                 <li><a href="/api/reservation/confirm">예약조회</a></li>
             </ul>
             <!-- //bcQuickMenu -->

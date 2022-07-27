@@ -76,6 +76,70 @@ public class HomeController {
         return "menu/gj";
     }
 
+
+    @GetMapping("/menu/dj")
+    public String option2Form() {
+        return "menu/dj";
+    }
+
+    @GetMapping("/menu/bn")
+    public String option3Form() {
+        return "menu/bn";
+    }
+
+
+    @GetMapping("/menu/sb")
+    public String option4Form() {
+        return "menu/sb";
+    }
+
+    @GetMapping("/menu/sh") // 성형외과
+    public String option5Form() {
+        return "menu/sh";
+    }
+
+
+    @GetMapping("/menu/sa") // 소아청소년과
+    public String option6Form() {
+        return "menu/sa";
+    }
+
+
+    @GetMapping("/menu/an") // 안과
+    public String option7Form() {
+        return "menu/an";
+    }
+
+
+    @GetMapping("/menu/eb") // 이빈후과
+    public String option8Form() {
+        return "menu/eb";
+    }
+
+
+    @GetMapping("/menu/js") // 정신건강의학과
+    public String option9Form() {
+        return "menu/js";
+    }
+
+
+    @GetMapping("/menu/jh") // 정형외과
+    public String option10Form() {
+        return "menu/jh";
+    }
+
+
+    @GetMapping("/menu/pb") // 피부과
+    public String option11Form() {
+        return "menu/pb";
+    }
+
+
+    @GetMapping("/menu/cg") // 치과
+    public String option12Form() {
+        return "menu/cg";
+    }
+
     @GetMapping("/menu/mypage")
     public String mypage() {
         return "menu/mypage";

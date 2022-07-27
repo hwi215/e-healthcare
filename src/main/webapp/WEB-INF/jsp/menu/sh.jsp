@@ -139,10 +139,10 @@
 
     <div class = "doctorContainer">
         <div class = "subjectField">
-            <span class = "subjectTitle"> 가정의학과 </span>
+            <span class = "subjectTitle"> 성형외과 </span>
             <span style="color: #157CC0; font-weight: bold;"> | </span>
-            <span id = "subjectInfo">가정의학과는 개인과 가족의 건강문제를 지속적이고 포괄적으로 돌보아드리는 과입니다.<br>
-          질병의 진단과 치료뿐만 아니라, 예방접종과 건강한 생활 습관 관리 등을 통한 질병 예방과 건강 증진을 위한 어떠한 내용도 함께 상담하고 관리해 나갈 수 있습니다.
+            <span id = "subjectInfo">성형외과란 구조적 변형 또는 기형의 수정과 기능적 결함의 교정을 주로 하는 외과의 특수분야입니다.<br>
+           즉, 성형외과학이란 신체 외부에 나타나는 선천성 기형 또는 후천성 변형이나 결손을 그 기능과 모양에 있어서 정상에 근사하게 교정해 주는 외과적 학문이라고 할 수 있습니다.
           </span>
         </div>
 
@@ -163,23 +163,23 @@
                     <img src="/images/ex1.jpg">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">김종인</span>
+                    <span style="color: #157CC0 ">한승규</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
+                    <span>[성형외과]</span>
 
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">비만, 골다공증, 임상영양</span>
+                    <span style="font-family: NEXON;">당뇨발 , 피부종양</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">jm가정의학과의원</span>
+                    <span style="color: #145c8b;">고려대학교의과대학부속구로병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
-                    <span>: 2명</span>
+                    <span>: 1명</span>
                 </div>
                 <div id = "doctorOnline">
                 </div>
@@ -223,7 +223,7 @@
                     <img src="/images/ex2.jpg">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">이문정</span>
+                    <span style="color: #157CC0 ">고경석</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
@@ -231,10 +231,10 @@
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">여성갱년기, 스트레스, 가족상담</span>
+                    <span style="font-family: NEXON;">구순열</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">더맑은가정의학과의원</span>
+                    <span style="color: #145c8b;">재단법인아산사회복지재단 서울아산병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
@@ -280,22 +280,22 @@
                     <img src="/images/ex3.jpg">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">한윤지</span>
+                    <span style="color: #157CC0 ">안희창</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
+                    <span>[성형외과]</span>
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">건강증진, 기능의학</span>
+                    <span style="font-family: NEXON;"> 유방 재건및 성형, 선천성 얼굴</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">연세가정의학과의원</span>
+                    <span style="color: #145c8b;">한양대학교병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
-                    <span>: 1명</span>
+                    <span>: 2명</span>
                 </div>
                 <div id = "doctorOnline">
                 </div>
@@ -330,287 +330,6 @@
                     <div id = "detailUndo">
                         <img src="/images/undo.png">
                     </div>
-                </div>
-            </div>
-
-            <div class = "doctorContent" id="doc4">
-                <div class = "doctorImg">
-                    <img src="/images/ex4.jpg">
-                </div>
-                <div id = "doctorName">
-                    <span style="color: #157CC0 ">이해성</span>
-                    <span>의사</span>
-                </div>
-                <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
-                </div>
-                <div id = "doctorField">
-                    <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">남성갱년기, 피로, 노화관리</span>
-                </div>
-                <div id = "hospitalName">
-                    <span style="color: #145c8b;">서울가정의학과의원</span>
-                </div>
-                <div id = "doctorWaiting">
-                    <img src="/images/waiting.png">
-                    <span>: 0명</span>
-                </div>
-                <div id = "doctorOffline">
-                </div>
-                <a id = "doctorDetail">
-                    <img src="/images/돋보기.png">
-                    <span>상세소개</span>
-                </a>
-                <a id = "doctorConsult">
-                    <img src="/images/진료.png">
-                    <span>
-                        <button type="button" onclick=location.href="/items/new">상담신청</button>
-                    </span>
-                </a>
-                <div class = "doctorDetailInfo">
-                    <div id = "doctorSpeak">
-                        <span>한마디:&nbsp;</span>
-                        <span>소통과 사랑으로 배려하는 의사입니다.</span>
-                    </div>
-                    <div id = "doctorProfile">
-                        <span style="color: #157CC0 ">약력:<br></span>
-                        <span>서울대학교 의학 학사</span>
-                    </div>
-                    <div id = "doctorActivity">
-                        <span style="color: #157CC0 ">학회 활동:<br></span>
-                        <span>대한 가정의학회 정회원</span>
-                    </div>
-                    <div id = "hospitalLocation">
-                        <span>주소:</span>
-                        <span>서울 서초구 남부순환로 2614 한솔로이젠트 305호</span>
-                    </div>
-                    <div id = "detailUndo">
-                        <img src="/images/undo.png">
-                    </div>
-                </div>
-            </div>
-            <div class = "doctorContent" id="doc5">
-                <div class = "doctorImg">
-                    <img src="/images/ex5.jpg">
-                </div>
-                <div id = "doctorName">
-                    <span style="color: #157CC0 ">이지현</span>
-                    <span>의사</span>
-                </div>
-                <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
-                </div>
-                <div id = "doctorField">
-                    <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">임상영양, 암환자 통합 건강관리</span>
-                </div>
-                <div id = "hospitalName">
-                    <span style="color: #145c8b;">한사랑가정의학과의원</span>
-                </div>
-                <div id = "doctorWaiting">
-                    <img src="/images/waiting.png">
-                    <span>: 0명</span>
-                </div>
-                <div id = "doctorOffline">
-                </div>
-                <a id = "doctorDetail">
-                    <img src="/images/돋보기.png">
-                    <span>상세소개</span>
-                </a>
-                <a id = "doctorConsult">
-                    <img src="/images/진료.png">
-                    <span>
-                        <button type="button" onclick=location.href="/items/new">상담신청</button>
-                    </span>
-                </a>
-                <div class = "doctorDetailInfo">
-                    <div id = "doctorSpeak">
-                        <span>한마디:&nbsp;</span>
-                        <span>환자에게 희망을 가족에게 기쁨을</span>
-                    </div>
-                    <div id = "doctorProfile">
-                        <span style="color: #157CC0 ">약력:<br></span>
-                        <span>고려대학교 의학 학사<br>가톨릭대학교 산업의학 석사<br>가톨릭대학교 가정의학 박사</span>
-                    </div>
-                    <div id = "doctorActivity">
-                        <span style="color: #157CC0 ">학회 활동:<br></span>
-                        <span>대한 가정의학회 정회원<br>대한 임상초음파학회 정회원</span>
-                    </div>
-                    <div id = "hospitalLocation">
-                        <span>주소:</span>
-                        <span>서울 서초구 강남대로 455 강남태영데시앙루브</span>
-                    </div>
-                    <div id = "detailUndo">
-                        <img src="/images/undo.png">
-                    </div>
-                </div>
-            </div>
-            <div class = "doctorContent">
-                <div class = "doctorImg">
-                    <img src="/images/ex7.jpg" id="doc6">
-                </div>
-                <div id = "doctorName">
-                    <span style="color: #157CC0 ">박수희</span>
-                    <span>의사</span>
-                </div>
-                <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
-                </div>
-                <div id = "doctorField">
-                    <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">임상영양, 기능의학, 완화의료</span>
-                </div>
-                <div id = "hospitalName">
-                    <span style="color: #145c8b;">행복한가정의학과의원</span>
-                </div>
-                <div id = "doctorWaiting">
-                    <img src="/images/waiting.png">
-                    <span>: 0명</span>
-                </div>
-                <div id = "doctorOffline">
-                </div>
-                <a id = "doctorDetail">
-                    <img src="/images/돋보기.png">
-                    <span>상세소개</span>
-                </a>
-                <a id = "doctorConsult">
-                    <img src="/images/진료.png">
-                    <span>
-                        <button type="button" onclick=location.href="/items/new">상담신청</button>
-                    </span>
-                </a>
-                <div class = "doctorDetailInfo">
-                    <div id = "doctorSpeak">
-                        <span>한마디:&nbsp;</span>
-                        <span>우리 모두 행복해집시다.</span>
-                    </div>
-                    <div id = "doctorProfile">
-                        <span style="color: #157CC0 ">약력:<br></span>
-                        <span>한양대학교 의학 학사</span>
-                    </div>
-                    <div id = "doctorActivity">
-                        <span style="color: #157CC0 ">학회 활동:<br></span>
-                        <span>대한 가정의학회 정회원<br>대한 임상초음파학회 정회원</span>
-                    </div>
-                    <div id = "hospitalLocation">
-                        <span>주소:</span>
-                        <span>서울 강남구 봉은사로 119 성옥빌딩 3층</span>
-                    </div>
-                    <div id = "detailUndo">
-                        <img src="/images/undo.png">
-                    </div>
-                </div>
-            </div>
-            <div class = "doctorContent" id="doc7">
-                <div class = "doctorImg">
-                    <img src="/images/ex7.png">
-                </div>
-                <div id = "doctorName">
-                    <span style="color: #157CC0 ">유경림</span>
-                    <span>의사</span>
-                </div>
-                <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
-                </div>
-                <div id = "doctorField">
-                    <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">암환자 통합 건강관리</span>
-                </div>
-                <div id = "hospitalName">
-                    <span style="color: #145c8b;">고려가정의학과의원</span>
-                </div>
-                <div id = "doctorWaiting">
-                    <img src="/images/waiting.png">
-                    <span>: 0명</span>
-                </div>
-                <div id = "doctorOffline">
-                </div>
-                <a id = "doctorDetail">
-                    <img src="/images/돋보기.png">
-                    <span>상세소개</span>
-                </a>
-                <a id = "doctorConsult">
-                    <img src="/images/진료.png">
-                    <span>
-                        <button type="button" onclick=location.href="/items/new">상담신청</button>
-                    </span>
-                </a>
-                <div class = "doctorDetailInfo">
-                    <div id = "doctorSpeak">
-                        <span>한마디:&nbsp;</span>
-                        <span>이전보다 건강한 삶을 누리도록 도와드리겠습니다.</span>
-                    </div>
-                    <div id = "doctorProfile">
-                        <span style="color: #157CC0 ">약력:<br></span>
-                        <span>고려대학교 의학 학사</span>
-                    </div>
-                    <div id = "doctorActivity">
-                        <span style="color: #157CC0 ">학회 활동:<br></span>
-                        <span>대한 가정의학회 정회원<br>대한 임상초음파학회 정회원</span>
-                    </div>
-                    <div id = "hospitalLocation">
-                        <span>주소:</span>
-                        <span>서울 강남구 강남대로 240 양재SK허브프리모</span>
-                    </div>
-                    <div id = "detailUndo">
-                        <img src="/images/undo.png">
-                    </div>
-                </div>
-            </div>
-            <div class = "doctorContent" id="doc8">
-                <div class = "doctorImg">
-                    <img src="/images/ex8.jpg">
-                </div>
-                <div id = "doctorName">
-                    <span style="color: #157CC0 ">백종승</span>
-                    <span>의사</span>
-                </div>
-                <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
-                </div>
-                <div id = "doctorField">
-                    <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">비만클리닉.노인병,영양,대사불균형</span>
-                </div>
-                <div id = "hospitalName">
-                    <span style="color: #145c8b;">푸른가정의학과의원</span>
-                </div>
-                <div id = "doctorWaiting">
-                    <img src="/images/waiting.png">
-                    <span>: 0명</span>
-                </div>
-                <div id = "doctorOffline">
-                </div>
-                <a id = "doctorDetail">
-                    <img src="/images/돋보기.png">
-                    <span>상세소개</span>
-                </a>
-                <a id = "doctorConsult">
-                    <img src="/images/진료.png">
-                    <span>
-                        <button type="button" onclick=location.href="/items/new">상담신청</button>
-                    </span>
-                </a>
-                <div class = "doctorDetailInfo">
-                    <div id = "doctorSpeak">
-                        <span>한마디:&nbsp;</span>
-                        <span>최선의 진료를 시행한다.</span>
-                    </div>
-                    <div id = "doctorProfile">
-                        <span style="color: #157CC0 ">약력:<br></span>
-                        <span>중앙대학교 의학 학사</span>
-                    </div>
-                    <div id = "doctorActivity">
-                        <span style="color: #157CC0 ">학회 활동:<br></span>
-                        <span>대한 가정의학회 정회원<br>대한 위대장내시경학회 인증의<br>대한 노인의학회 정회원</span>
-                    </div>
-                    <div id = "hospitalLocation">
-                        <span>주소:</span>
-                        <span>서울 서초구 서초대로 389 진흥아파트 상가 201호</span>
-                    </div>
-                    <a id = "detailUndo">
-                        <img src="/images/undo.png">
-                    </a>
                 </div>
             </div>
 

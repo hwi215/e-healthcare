@@ -139,10 +139,10 @@
 
     <div class = "doctorContainer">
         <div class = "subjectField">
-            <span class = "subjectTitle"> 가정의학과 </span>
+            <span class = "subjectTitle"> 정신건강의학과 </span>
             <span style="color: #157CC0; font-weight: bold;"> | </span>
-            <span id = "subjectInfo">가정의학과는 개인과 가족의 건강문제를 지속적이고 포괄적으로 돌보아드리는 과입니다.<br>
-          질병의 진단과 치료뿐만 아니라, 예방접종과 건강한 생활 습관 관리 등을 통한 질병 예방과 건강 증진을 위한 어떠한 내용도 함께 상담하고 관리해 나갈 수 있습니다.
+            <span id = "subjectInfo">정신건강의학과는 정신과적 면담과 검사를 통해 질병을 진단하고 개별 환자에 대해 생물학적∙심리적∙환경적 요인을 고려한 통합적인 치료를 하고 있습니다.<br>
+          조현병, 양극성장애, 우울장애, 강박장애, 불안장애, 치매 및 노인정신질환, 정신신체장애, 중독장애, 수면장애 등 세부 질환을 전문적으로 다루는 특수 클리닉을 개설하여 최고의 진료를 제공합니다.
           </span>
         </div>
 
@@ -163,19 +163,19 @@
                     <img src="/images/ex1.jpg">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">김종인</span>
+                    <span style="color: #157CC0 ">박원명</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
+                    <span>[정신건강의학과]</span>
 
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">비만, 골다공증, 임상영양</span>
+                    <span style="font-family: NEXON;">우울증,조울병,조현병</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">jm가정의학과의원</span>
+                    <span style="color: #145c8b;">가톨릭대학교 여의도성모병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
@@ -223,22 +223,22 @@
                     <img src="/images/ex2.jpg">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">이문정</span>
+                    <span style="color: #157CC0 ">오강섭</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
+                    <span>[정신건강의학과]</span>
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">여성갱년기, 스트레스, 가족상담</span>
+                    <span style="font-family: NEXON;">불안장애, 우울장애, 노인정신질환</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">더맑은가정의학과의원</span>
+                    <span style="color: #145c8b;">강북삼성병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
-                    <span>: 0명</span>
+                    <span>: 2명</span>
                 </div>
                 <div id = "doctorOnline">
                 </div>
@@ -280,22 +280,22 @@
                     <img src="/images/ex3.jpg">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">한윤지</span>
+                    <span style="color: #157CC0 ">반건호</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
+                    <span>[정신건강의학과]</span>
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">건강증진, 기능의학</span>
+                    <span style="font-family: NEXON;">영유아 및 소아청소년 클리닉</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">연세가정의학과의원</span>
+                    <span style="color: #145c8b;">경희대학교병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
-                    <span>: 1명</span>
+                    <span>: 2명</span>
                 </div>
                 <div id = "doctorOnline">
                 </div>
@@ -338,18 +338,18 @@
                     <img src="/images/ex4.jpg">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">이해성</span>
+                    <span style="color: #157CC0 ">김도관</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
+                    <span>[정신건강의학과]</span>
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">남성갱년기, 피로, 노화관리</span>
+                    <span style="font-family: NEXON;">우울증, 치매, 노인정신질환</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">서울가정의학과의원</span>
+                    <span style="color: #145c8b;">삼성서울병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
@@ -394,18 +394,18 @@
                     <img src="/images/ex5.jpg">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">이지현</span>
+                    <span style="color: #157CC0 ">전우택</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
+                    <span>[정신건강의학과]</span>
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">임상영양, 암환자 통합 건강관리</span>
+                    <span style="font-family: NEXON;">우울증 특수진료</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">한사랑가정의학과의원</span>
+                    <span style="color: #145c8b;">연세대학교의과대학세브란스병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
@@ -450,18 +450,18 @@
                     <img src="/images/ex7.jpg" id="doc6">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">박수희</span>
+                    <span style="color: #157CC0 ">강웅구</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
+                    <span>[정신건강의학과]</span>
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">임상영양, 기능의학, 완화의료</span>
+                    <span style="font-family: NEXON;">알코올클리닉, 약물의존</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">행복한가정의학과의원</span>
+                    <span style="color: #145c8b;">서울대학교병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
@@ -506,18 +506,18 @@
                     <img src="/images/ex7.png">
                 </div>
                 <div id = "doctorName">
-                    <span style="color: #157CC0 ">유경림</span>
+                    <span style="color: #157CC0 ">김석현</span>
                     <span>의사</span>
                 </div>
                 <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
+                    <span>[정신건강의학과]</span>
                 </div>
                 <div id = "doctorField">
                     <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">암환자 통합 건강관리</span>
+                    <span style="font-family: NEXON;">스트레스관련질환, 외상후스트레스</span>
                 </div>
                 <div id = "hospitalName">
-                    <span style="color: #145c8b;">고려가정의학과의원</span>
+                    <span style="color: #145c8b;">한양대학교병원</span>
                 </div>
                 <div id = "doctorWaiting">
                     <img src="/images/waiting.png">
@@ -555,62 +555,6 @@
                     <div id = "detailUndo">
                         <img src="/images/undo.png">
                     </div>
-                </div>
-            </div>
-            <div class = "doctorContent" id="doc8">
-                <div class = "doctorImg">
-                    <img src="/images/ex8.jpg">
-                </div>
-                <div id = "doctorName">
-                    <span style="color: #157CC0 ">백종승</span>
-                    <span>의사</span>
-                </div>
-                <div id = "doctorSubject">
-                    <span>[가정의학과]</span>
-                </div>
-                <div id = "doctorField">
-                    <span>[진료분야]<br></span>
-                    <span style="font-family: NEXON;">비만클리닉.노인병,영양,대사불균형</span>
-                </div>
-                <div id = "hospitalName">
-                    <span style="color: #145c8b;">푸른가정의학과의원</span>
-                </div>
-                <div id = "doctorWaiting">
-                    <img src="/images/waiting.png">
-                    <span>: 0명</span>
-                </div>
-                <div id = "doctorOffline">
-                </div>
-                <a id = "doctorDetail">
-                    <img src="/images/돋보기.png">
-                    <span>상세소개</span>
-                </a>
-                <a id = "doctorConsult">
-                    <img src="/images/진료.png">
-                    <span>
-                        <button type="button" onclick=location.href="/items/new">상담신청</button>
-                    </span>
-                </a>
-                <div class = "doctorDetailInfo">
-                    <div id = "doctorSpeak">
-                        <span>한마디:&nbsp;</span>
-                        <span>최선의 진료를 시행한다.</span>
-                    </div>
-                    <div id = "doctorProfile">
-                        <span style="color: #157CC0 ">약력:<br></span>
-                        <span>중앙대학교 의학 학사</span>
-                    </div>
-                    <div id = "doctorActivity">
-                        <span style="color: #157CC0 ">학회 활동:<br></span>
-                        <span>대한 가정의학회 정회원<br>대한 위대장내시경학회 인증의<br>대한 노인의학회 정회원</span>
-                    </div>
-                    <div id = "hospitalLocation">
-                        <span>주소:</span>
-                        <span>서울 서초구 서초대로 389 진흥아파트 상가 201호</span>
-                    </div>
-                    <a id = "detailUndo">
-                        <img src="/images/undo.png">
-                    </a>
                 </div>
             </div>
 

@@ -186,4 +186,10 @@ public class HomeController {
     public String modal() {
         return "menu/modal";
     }
+
+
+    @GetMapping("/menu/mainpage")
+    public String mainpage() {
+        return "menu/mainpage";
+    }
 }

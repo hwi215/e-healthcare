@@ -23,7 +23,7 @@
         <div id="logo">
             <img src = "images/logo6.png" style="float: center; display: inline; margin: 1em; width:4em; height:4em;">
 
-            <h1><a href="index.html">E-HealthCare</a></h1>
+            <h1><a href="/menu/mainpage">E-HealthCare</a></h1>
             <p>An online consultation and medical subscription</p>
         </div>
         <!-- Nav -->
@@ -31,6 +31,7 @@
             <ul>
                 <li class="current"><a href="/menu/mypageDoctor">마이페이지</a></li>
                 <li><a href="/items">상담요청 목록</a></li>
+                <li><a href="/room">상담 시작하기</a></li>
                 <li><a href="/auth/signin">Log Out</a></li>		<!-- 로그인 기능 구현 전이기 때문에 페이지를 바꾸는 것으로 대체함. -->
             </ul>
         </nav>
@@ -42,19 +43,27 @@
         <div class="container">
         <form role="form" method="post" action="/items/new">
             <table>
-                <tr><th>이름</th><th>수락상태</th><th>진료과목</th><th>상담요청일</th></tr>
+                <tr><th>이름</th><th>진료과목</th><th>증상요약</th><th>상담요청일</th><th>상담수락</th><th>상담상태</th></tr>
 
                 <c:forEach items="${item}" var = "item">
                     <tr>
                         <td><c:out value="${item.name}" /></td>
+                        <td><c:out value="${item.quantity}" /></td>
+                        <td><c:out value="${item.note}" /></td>
+                        <td><c:out value="${item.createDate}" /></td>
                         <td>
                             <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
+                                <input type="checkbox">
+                                <span class="slider round"></span>
                             </label>
                         </td>
-                        <td><c:out value="${item.price}" /></td>
-                        <td><c:out value="${item.quantity}" /></td>
+                        <td>
+                            <select name="state">
+                                <option value="00">미완료</option>
+                                <option value="01" >진행중</option>
+                                <option value="02">완료</option>
+                            </select>
+                        </td>
                     </tr>
                 </c:forEach>
             </table>

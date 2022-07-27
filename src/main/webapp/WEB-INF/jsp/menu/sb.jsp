@@ -56,14 +56,14 @@
 
 
     <div id="wrap2">
-        <a href="#content" class="skipToContent">본문으로 바로가기</a>
         <!-- header -->
 
         <header id="header" class="b">
             <!-- innerWrap -->
             <div class="innerWrap">
+                <h1><a href="/main" class="hideTxt">E-healthcare</a></h1>
                 <div class="topLeftWrap">
-                    <a href="/" class="hideTxt" id="outcomes" >Outcomes Book</a>
+                    <a href="/main" class="hideTxt" id="outcomes" >Outcomes Book</a>
                 </div>
 
                 <!-- topMenuWrap -->
@@ -83,17 +83,17 @@
                     <h2 class="hideEl">주 메뉴</h2>
                     <ul class="gnbList clearFix">
                         <li>
-                            <a href="/menu/mainpage" onclick="return false;">헬스케어 소개</a>
+                            <a href="/menu/mainpage">헬스케어 소개</a>
                         </li>
                         <li><a href="/menu/medicalField">분야선택</a></li>
                         <li>
                             <a href="/menu/doctor">의사검색</a>
                         </li>
                         <li>
-                            <a href="/menu/disease" onclick="return false;">내 질병 찾기</a>
+                            <a href="/menu/disease">내 질병 찾기</a>
                         </li>
                         <li>
-                            <a href="/menu/mypage" onclick="return false;">마이페이지</a>
+                            <a href="/menu/mypage">마이페이지</a>
                         </li>
 
                     </ul>

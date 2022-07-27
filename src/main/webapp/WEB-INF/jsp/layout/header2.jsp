@@ -42,7 +42,7 @@
                 <h2 class="hideEl">주 메뉴</h2>
                 <ul class="gnbList clearFix">
                     <li>
-                        <a href="/menu/mainpage" onclick="return false;">헬스케어 소개</a>
+                        <a href="/menu/mainpage">헬스케어 소개</a>
 
                     </li>
                     <li><a href="/menu/medicalField">분야선택</a></li>
@@ -51,7 +51,7 @@
 
                     </li>
                     <li>
-                        <a href="/menu/disease" onclick="return false;">내 질병 찾기</a>
+                        <a href="/menu/disease">내 질병 찾기</a>
 
                     </li>
                     <li>

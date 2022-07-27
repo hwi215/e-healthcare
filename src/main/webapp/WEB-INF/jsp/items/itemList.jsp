@@ -43,7 +43,7 @@
         <div class="container">
         <form role="form" method="post" action="/items/new">
             <table>
-                <tr><th>이름</th><th>진료과목</th><th>증상요약</th><th>상담요청일</th><th>상담수락</th><th>상담상태</th></tr>
+                <tr><th>이름</th><th>진료과목</th><th>증상요약</th><th>상담요청일</th><th>상담수락</th><th>상담상태</th><th>처방전</th></tr>
 
                 <c:forEach items="${item}" var = "item">
                     <tr>
@@ -64,6 +64,7 @@
                                 <option value="02">완료</option>
                             </select>
                         </td>
+                        <td><button type="button" onclick=location.href="/menu/reservation">작성</button></td>
                     </tr>
                 </c:forEach>
             </table>

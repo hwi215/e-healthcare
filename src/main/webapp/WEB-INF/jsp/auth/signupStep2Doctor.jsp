@@ -1522,18 +1522,14 @@
                                     <col style="width: 140px;">
                                     <col style="width: auto;">
                                 </colgroup>
-                                <form action="/mailCheck?email=email" method="GET">
-                                    <br>의사 면허번호 입력후 인증하기를 해주십시오.</br>
-                                    <input type="email" name="email" placeholder="의사 면허번호" title="이메일 주소를 입력해주세요." />
-                                    <button class = "sendmsg" >인증하기</button><br />
-                                </form>
+
+                                <br>의사 면허번호 입력후 인증하기를 해주십시오.</br>
+                                <input type="text" name="doctorNum" placeholder="의사 면허번호" title="의사 면허번호를 입력해주세요." />
+                                <button onclick="suc()">인증하기</button><br />
 
                             </table>
                     </div>
 
-                    <div class="btnWrap">
-                        <button type="button" class="btnType03 btnBig" id="hNextBtn" onclick=location.href="/auth/signupStep3Doctor">다음단계</button>
-                    </div>
 
                 </fieldset>
             </form>
@@ -1545,3 +1541,10 @@
 </body>
 
 <%@ include file="../layout/footer2.jsp"%>
+
+<script>
+    function suc() {
+        alert("인증 완료!");
+        location.href="/auth/signupStep3Doctor";
+    }
+</script>

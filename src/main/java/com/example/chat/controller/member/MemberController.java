@@ -1,7 +1,8 @@
 package com.example.chat.controller.member;
 
-import com.example.chat.controller.MemberForm;
+import com.example.chat.domain.Doctor;
 import com.example.chat.domain.Member;
+import com.example.chat.service.DoctorService;
 import com.example.chat.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -18,6 +19,7 @@ import java.util.List;
 public class MemberController {
 
     private final MemberService memberService;
+    private final DoctorService doctorService;
 
     @GetMapping("/members/new")
     public String createForm(Model model) { // 회원가입
@@ -111,4 +113,31 @@ public class MemberController {
     }
 
      */
+
+    @PostMapping("/auth/signup/doctor")
+    public String create2(@Valid DoctorForm form, BindingResult result) {
+
+        if (result.hasErrors()) {
+            return "auth/signupStep1";
+        }
+        Doctor doctor = new Doctor();
+        doctor.setUsername(form.getUsername());
+        doctor.setPassword(form.getPassword());
+
+        doctor.setName(form.getName());
+        doctor.setEmail(form.getEmail());
+
+        doctor.setGender(form.getGender());
+        doctor.setNationality(form.getNationality());
+
+        doctor.setPhoneN1(form.getPhoneN1());
+        doctor.setPhoneN2(form.getPhoneN2());
+        doctor.setPhoneN3(form.getPhoneN3());
+
+        doctor.setRole(form.getRole());
+
+        doctorService.join(doctor);
+        System.out.println("의사 회원가입 완료");
+        return "auth/signupStep4";
+    }
 }

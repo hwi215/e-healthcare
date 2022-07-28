@@ -1,16 +1,12 @@
-package com.example.chat.controller;
+package com.example.chat.controller.member;
 
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
 import javax.validation.constraints.NotEmpty;
-import java.time.LocalDateTime;
 
 @Getter @Setter
-public class MemberForm {
+public class DoctorForm {
 
 
     @NotEmpty(message = "회원 이름은 필수 입니다")
@@ -30,5 +26,5 @@ public class MemberForm {
 
     private String role;
 
-    //private LocalDateTime createDate;
+    private String doctorNum; // 면허번호
 }

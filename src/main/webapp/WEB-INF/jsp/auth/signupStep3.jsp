@@ -39,7 +39,7 @@
 
                             <tr>
                                 <th scope="row"><span class="required">*</span> 비밀번호 확인</th>
-                                <td><input type="password" name="password" required="required" /><p class="error" role="alert"></p></td>
+                                <td><input type="password" /><p class="error" role="alert"></p></td>
                             </tr>
 
                             <tr>

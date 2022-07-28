@@ -4,6 +4,7 @@
 <%@ include file="../layout/header2.jsp"%>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <body>
+
     <main id="content" class="memJoinContent">
         <div class="contHeadingWrap">
             <h2>회원가입</h2>
@@ -17,7 +18,7 @@
             <fieldset>
                 <legend>회원가입</legend>
                 <!--회원가입 인풋-->
-                <form class="login__input"  action="/auth/signup/Doctor" method="post">
+                <form class="login__input"  action="/auth/signup/doctor" method="post">
 
                     <div class="boardTypeForm">
                         <table>

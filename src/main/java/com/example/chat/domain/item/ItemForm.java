@@ -10,4 +10,5 @@ public class ItemForm {
     private String quantity;
 
     private String note; // 증상기록
+    private String data;
 }

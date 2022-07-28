@@ -3,12 +3,12 @@ package com.example.chat.domain.item;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.annotation.CreatedDate;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.PrePersist;
+import javax.persistence.*;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 @Entity
 @Getter
@@ -24,11 +24,12 @@ public class Item {
 
     private String note; // 증상기록
 
-    private LocalDateTime createDate;
+
+    private LocalDate createDate;
 
     @PrePersist
     public void createDate() {
-        this.createDate = LocalDateTime.now();
+        this.createDate = LocalDate.now();
     }
 
 }

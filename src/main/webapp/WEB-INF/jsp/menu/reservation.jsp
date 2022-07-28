@@ -32,22 +32,84 @@
                     <!--로고-->
                     <h1><img src="/images/logo6.png" alt=""></h1>
                     <h1>E-healthcare 처방전 작성</h1>
-                    <p>아무말</p>
+                    <p>환자 및 의료인 정보와 처방 내역을 작성해주십시오.</p>
                     <!--로고end-->
 
                     <!--상담신청 인풋-->
-                    <form class="login__input"  action="/items/new" method="post">
-                        <tr>
-                            <td>이름 : <input type="text" name="name" size="20"></td>
-                        </tr>
-                        <tr>
-                            <td>증상 : <input type="text" name="name" size="20"></td>
-                        </tr>
-                        <input type="text" name="name" placeholder="환자이름" required="required"  maxlength="30"/>
-                        <input type="text" name="price" placeholder="의사이름" required="required" />
-                        <input type="text" name="quantity" placeholder="진료분야" required="required" />
-                        <input type="text" name="note" placeholder="증상" required="required" />
-                        <button onclick="suc()">상담신청</button>
+                    <form class="login__input" action="/menu/reservation" method="post">
+
+                        <table>
+                            <tr>
+                                <td>환자 이름 : </td>
+                                <td>
+                                    <input type="text" name="name" size="20">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>환자 주민등록번호 : </td>
+                                <td>
+                                    <input type="text" name="number" size="20">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>의사 면허번호 : </td>
+                                <td>
+                                    <input type="text" name="doctorNum" size="20">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>의료기관명 : </td>
+                                <td>
+                                    <input type="text" name="healthcare" size="20">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>처방 의약품의 명칭 : </td>
+                                <td>
+                                    <input type="text" name="medicineName" size="20">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>1회 투약량 : </td>
+                                <td>
+                                    <input type="text" name="dosage" size="20">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>1일 투여횟수 : </td>
+                                <td>
+                                    <input type="text" name="times" size="20">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>총 투약일수 : </td>
+                                <td>
+                                    <input type="text" name="totalDay" size="20">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>기타 의견사항 : </td>
+                                <td>
+                                    <input type="text" name="note" size="20">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="btnWrap" style="float: right;">
+                                        <button style="float: right;" class="btnType03 btnBig" id="nextBtn" onclick=location.href="/menu/mypage">Submit</button>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </table>
+
                     </form>
                     <!--상담신청 인풋end-->
                 </div>

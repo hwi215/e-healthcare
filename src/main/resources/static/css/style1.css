@@ -38,7 +38,7 @@ button {
 
 /*로그인폼과 가입하기를 감싸는 컨테이너*/
 .login__form__container {
-  width: 550px;
+  width: 1000px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -78,11 +78,11 @@ button {
 
 /*로그인 인풋태그*/
 .login__input input {
-  width: 100%;
+  width: 90%;
   height: 38px;
   padding: 9px 0 7px 8px;
   border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
-  border-radius: 3px;
+  border-radius: 6px;
   margin-bottom: 6px;
 }
 

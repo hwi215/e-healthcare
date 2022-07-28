@@ -176,11 +176,22 @@ public class HomeController {
         return "menu";
     }
 
+    @GetMapping("/menu/res")
+    public String res() {
+        return "menu/res";
+    }
+
+
     @GetMapping("/menu/reservation")
     public String reservation() {
         return "menu/reservation";
     }
 
+
+    @GetMapping("/menu/reservation2")
+    public String reservation2() {
+        return "menu/reservation2";
+    }
 
     @GetMapping("/menu/modal")
     public String modal() {

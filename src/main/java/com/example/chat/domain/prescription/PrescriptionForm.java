@@ -1,21 +1,11 @@
 package com.example.chat.domain.prescription;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
-@Entity
 @Getter
 @Setter
-public class Prescription {
-
-    @Id
-    @GeneratedValue
-    private Long id;
+public class PrescriptionForm {
 
     private String name; // 환자name
     private String number; // 환자 주민번호
@@ -29,7 +19,4 @@ public class Prescription {
     private String totalDay; // 총 투약일수
 
     private String healthcare; // 의료기관 명
-
-
-
 }

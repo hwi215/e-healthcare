@@ -100,15 +100,16 @@
                                 </td>
                             </tr>
 
-                            <tr>
-                                <td>
-                                    <div class="btnWrap" style="float: right;">
-                                        <button style="float: right;" class="btnType03 btnBig" id="nextBtn" onclick=location.href="/menu/mypage">Submit</button>
-                                    </div>
-                                </td>
-                            </tr>
 
                         </table>
+                        <tr>
+                            <td>
+                                <div class="btnWrap" style="float: right;">
+                                    <button style="float: right;" class="btnType03 btnBig" id="nextBtn" onclick=location.href="/menu/mypage">Submit</button>
+                                </div>
+                            </td>
+                        </tr>
+
 
                     </form>
                     <!--상담신청 인풋end-->

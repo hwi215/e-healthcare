@@ -65,16 +65,99 @@ E-healthcare란?<br>
 
 ## ✨ 세부기능
 ### 1️⃣ 메인페이지(헬스케어소개)
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181667537-934400b1-1d8e-4ab2-aded-dabda9f3a07e.PNG"/>
+</p>
+</br></br>
 
 ### 2️⃣ 로그인, 회원가입
+   1) 로그인
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181667928-894ab98c-755f-4595-b393-a4023fac7ab9.PNG"/>
+</p>
+</br></br>
+
+   2) 회원가입 STEP1
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181669687-d7350ff7-d0d2-4d2c-a49f-078735eda8b8.PNG"/>
+</p>
+</br></br>
+
+  2-1) 일반회원 회원가입 STEP2
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181668769-870865d9-1c7a-4731-b926-09081d1f5aa1.PNG"/>
+</p>
+</br></br>
+
+  2-2) 의사회원 회원가입 STEP2
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181669537-a1a81790-f6ae-4090-984e-8f60baf4023e.PNG"/>
+</p>
+</br></br>
+
+  2-3) 회원가입 STEP3
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181669989-9ab10181-eab7-46fd-a590-5770c7ab9c4e.PNG"/>
+</p>
+</br></br>
+
+  2-3) 회원가입 STEP4
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181669810-dd8a7edf-28bf-424c-a64d-b5d33522f70b.PNG"/>
+</p>
+</br></br>
 
 ### 3️⃣ 진료분야선택 및 상담신청
+  1) 진료분야 선택
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181681217-7fdd9ea1-18ae-4a4f-b668-ebe441ca63bd.PNG"/>
+</p>
+</br></br>
 
-### 4️⃣ 상담(채팅)
+  2) 진료분야별 전문의 상세정보
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181681234-c3a4e2d8-4168-4a8c-aae6-3a71d033a68f.PNG"/>
+</p>
+</br></br>
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181681237-b28e1684-25f2-4f20-ada7-c4fabf5f04b5.PNG"/>
+</p>
+</br></br>
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181668769-870865d9-1c7a-4731-b926-09081d1f5aa1.PNG"/>
+</p>
+</br></br>
+
+### 4️⃣ 상담
+  1) 상담 신청
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181681239-902b536e-d452-4702-8573-380184f13f7a.PNG"/>
+</p>
+</br></br>
+
+  2) 상담(채팅)
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181682448-2e93899b-4642-4d09-915c-2aca6ae1ea50.PNG"/>
+</p>
+</br></br>
 
 ### 5️⃣ 처방전
+  1) 처방전 작성
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181668769-870865d9-1c7a-4731-b926-09081d1f5aa1.PNG"/>
+</p>
+</br></br>
 
 ### 6️⃣ 마이페이지 
+  1) 진료회원 마이페이지
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181682452-0d704e8a-a433-49c4-8a8d-e1502e20123c.PNG"/>
+</p>
+</br></br>
 
-
-### ✨ 확장 방안 및 기대효과
+  2) 의사 마이페이지 - 상담요청목록
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181682453-67ca1f24-93b1-473a-a6f9-3634c39c3b0d.PNG"/>
+</p>
+</br></br>
+## ✨ 확장 방안 및 기대효과

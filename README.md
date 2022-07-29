@@ -40,14 +40,14 @@ E-healthcare란?<br>
 
 ### 5) 브랜딩
 ① 네이밍
+
 - E-healthcare: 온라인 헬스케어(치료를 목적으로 하는 의료서비스)
 
-② 아이콘	
+② 로고	
 <p align="center">
-<img width="70%" src =
-/>
+<img width="20%" src ="https://user-images.githubusercontent.com/56347876/181690017-07efd9d1-2687-46a4-a69e-329c86d9ff30.png"/>
 </p>
-</br></br>
+</br>
 
 ### 6) 기술스택
 - ForntEnd   
@@ -83,13 +83,13 @@ E-healthcare란?<br>
 </p>
 </br></br>
 
-  2-1) 일반회원 회원가입 STEP2
+  2-1) 진료회원 회원가입 STEP2
 <p align="center">
 <img width="90%" src ="https://user-images.githubusercontent.com/56347876/181668769-870865d9-1c7a-4731-b926-09081d1f5aa1.PNG"/>
 </p>
 </br></br>
 
-  2-2) 의사회원 회원가입 STEP2
+  2-2)  회원가입 STEP2
 <p align="center">
 <img width="90%" src ="https://user-images.githubusercontent.com/56347876/181669537-a1a81790-f6ae-4090-984e-8f60baf4023e.PNG"/>
 </p>
@@ -123,15 +123,12 @@ E-healthcare란?<br>
 <img width="90%" src ="https://user-images.githubusercontent.com/56347876/181681237-b28e1684-25f2-4f20-ada7-c4fabf5f04b5.PNG"/>
 </p>
 </br></br>
-<p align="center">
-<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181668769-870865d9-1c7a-4731-b926-09081d1f5aa1.PNG"/>
-</p>
-</br></br>
+
 
 ### 4️⃣ 상담
   1) 상담 신청
 <p align="center">
-<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181681239-902b536e-d452-4702-8573-380184f13f7a.PNG"/>
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181690710-5b6699f9-a64d-4ff1-a306-e81bc7b1b105.PNG"/>
 </p>
 </br></br>
 
@@ -144,9 +141,16 @@ E-healthcare란?<br>
 ### 5️⃣ 처방전
   1) 처방전 작성
 <p align="center">
-<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181668769-870865d9-1c7a-4731-b926-09081d1f5aa1.PNG"/>
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181682454-306315b1-7204-4232-bc4c-3833c91af8ea.PNG"/>
 </p>
 </br></br>
+
+  2) 처방전 확인
+<p align="center">
+<img width="90%" src ="https://user-images.githubusercontent.com/56347876/181689593-dcbc5bdb-38c1-4cf7-99bb-cab1ebf8a82b.JPG"/>
+</p>
+</br></br>
+
 
 ### 6️⃣ 마이페이지 
   1) 진료회원 마이페이지
@@ -155,9 +159,20 @@ E-healthcare란?<br>
 </p>
 </br></br>
 
-  2) 의사 마이페이지 - 상담요청목록
+  2) 전문의료진 마이페이지 - 상담요청목록
 <p align="center">
 <img width="90%" src ="https://user-images.githubusercontent.com/56347876/181682453-67ca1f24-93b1-473a-a6f9-3634c39c3b0d.PNG"/>
 </p>
 </br></br>
-## ✨ 확장 방안 및 기대효과
+
+## ✨ 확장 가능성 및 기대효과
+
+### 1) 확장 가능성
+- "의사찾기"를 통해 사전에 의사의 정보를 확인하여 사용자가 의사를 직접 선택할 수 있다.
+- “내 질병 찾기”를 통해 사용자의 증상이 어느 질병과 관련있는 지 파악하여 관련 분야의 전문 의사들과 상담 할 수 있다.
+
+### 2) 기대효과
+- 온라인 진료 서비스를 제공하여 의사와의 채팅을 통해 진료를 받을 수 있다.
+- 증상에 맞는 처방전을 온라인으로 제공 받을 수 있다. 
+- 비대면 서비스로 의사나 다른 환자들과 직접 대면하지 않아 전염성 질병을 예방하고 다른 사람들과의 접촉을 최소화 할 수 있다.
+- 사전에 의사의 정보를 확인하여 자신이 의사를 직접 선정할 수 있어 선택의 폭을 넓힐 수 있다.
